@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script src="jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="jqueryassignstyle.css">
+	</head>
+ <body>
+ 
+ 	<header class="header-division">
+ 		<ul class="header-primary">
+ 			<li><a href="#" class="header-primary-logo"></a></li>
+ 			<li><a href="#">MyApps &#9662</a></li>
+ 			<li><a href="#">Marketplace</a></li>
+ 		</ul>
+ 		<ul class="header-secondary">
+ 			<li><a href="#">Account</a></li>
+ 			<li>
+ 				<div class="dropdown">
+  				<button onclick="dropdown()" class="dropbtn">Nikhil Gupta &#9662;</button>
+  				<div id="myDropdown" class="dropdown-content">
+    			<a href="#">My Profile</a>
+    			<a href="#">My Company</a>
+    			<a href="#">My Settings</a>
+    			<a href="#">Logout</a>
+  			</div>
+			</div>
+ 			</li>
+ 		</ul>
+ 	</header>
+ 	<section class="section">
+ 		<div  class="section-div-left">
+ 				<h1 class="section-div-title">Registration Page</h1>
+ 			 <form name="myForm">
+ 			 	First Name   <input id="frstname" type="text" name="firstname" required><br>
+	 			Last Name <input  id="lstname" type="text" name="lastname"> (optional)<br>
+	 			Address (P)	  <input id="addressp" type="text" name="paddress" required> <br>
+	 				             <input  type="checkbox" id="chckbox" name="filling" >(Check if current address is same as permanent adddress)<br>
+	 			Address (C)		<input id="addressc" type="text" name="caddress" ><br>
+	 			Email-id     <input id="eid" type="text" name="emailid" required ><br>
+	 			Phone No.		<input id="pnum" type="text" name="phoneno." ><br>
+	 			Password	<input id="txtpassword"  type="password" name="Password" required><br>
+	 			Confirm Password  <input id="txtconfirmpassword" type="password" name="cpassword" required><br>
+	 					<button class="section-div-left-reset" type="Reset" value="Reset">Reset</button>
+  						<input type="button" id="register" class="section-div-left-submit"  value="Register">
+  			</form>
+  			 	
+
+  			
+ 		</div>
+ 		<div class="section-div-right">
+ 			
+ 			<div id="parent-div"><h1 class="section-div-title">Dashboard</h1></div>
+ 			<ul class="section-div-title-menu" id="section-div-title-menu">
+ 				
+
+ 			</ul>
+ 		
+ 		</div>
+ 	</section>
+ 	<hr>
+ 	<footer class="footer-primary">
+ 		<ul class="footer-primary-left">
+ 			<li><a href="#" class="footer-primary-logo"></a></li>
+ 			<li><a href="#">Powered by appdirect @2009-2017</a></li>
+ 		</ul>
+ 		<ul class="footer-primary-right">
+ 			<li>
+ 				<a href="#">English (United States) 
+ 					<select>
+ 						<option value="language:de">Deutsch</option>
+  						<option value="language:en-US">English (United States)</option>
+  						<option value="language:es">Español</option>
+  						<option value="language:es-MX">Español (México)</option>
+  						<option value="language:fi">Suomi</option>
+					</select>
+				</a>
+			</li>
+ 			<li><a href="#">Help Desk  </a></li>
+ 			<li><a href="#">Privacy Policy  </a></li>
+ 			<li><a href="#">Terms and Condition  </a></li>
+ 			<li><a href="#">Contact  </a></li>
+ 		</ul>
+ 	</footer>
+ </body>
+</html>

@@ -1,0 +1,96 @@
+.header {
+	&-division {
+		display: flex;
+		background-color: #2D2A26;
+		justify-content: space-around;
+	}
+
+	&-primary {
+		display: flex;
+		list-style: none;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: -200px;
+
+		& li {
+			padding: 15px;
+			border: 1px solid;
+
+			& a {
+				align-self: center;
+				color: #D2D5D9;
+				width: 34px;
+				text-decoration: none;
+				font-size: 18px;
+			}
+		}
+
+		&-logo {
+			background: url("appdirect_logo.png") no-repeat;
+			background-size: contain;
+			height: 35px;
+			width: 34px;
+			display: block;
+		}
+	}
+
+	&-secondary {
+		display: flex;
+		list-style: none;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: -144px;
+
+		& li {
+			padding: 15px;
+			border: 1px solid;
+
+			& a {
+				align-self: center;
+				color: #D2D5D9;
+				text-decoration: none;
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+.dropbtn {
+	background-color: #2D2A26;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 4px;
+	font-size: 15px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+
+	&-content {
+		display: none;
+		position: absolute;
+		background-color: #2D2A26;
+		min-width: 160px;
+
+		& a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+
+			&:hover {
+				background-color: #009ABF;
+			}
+		}
+	}
+}
+
+.show {
+	display: block;
+}
+
+body {
+	margin: 0px;
+}
