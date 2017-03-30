@@ -1,0 +1,175 @@
+.footer {
+	&-logo-div {
+		height: 100px;
+		width: 1435px;
+		background-color: #57585B;
+	}
+
+	&-div-logo {
+		background: url("frontier-logo-edge4.png") no-repeat;
+		height: 100px;
+		width: 150px;
+		margin-left: 300px;
+	}
+
+	&-primary {
+		background-color: #ccc;
+	}
+}
+
+.section-main-content {
+	min-height: 170px;
+	background-color: #F0F1F3;
+}
+
+.caption-holder {
+	padding: 20px 0;
+	text-align: center;
+	background-color: #D03035;
+
+	&span {
+		font-size: 30px;
+	}
+}
+
+.links-holder {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 275px;
+	padding-top: 34px;
+	padding-right: 106px;
+	background-color: #57585B;
+
+	& ul {
+		list-style: none;
+
+		& li:first-child {
+			font-weight: bold;
+		}
+
+		& a {
+			color: #000;
+			text-decoration: none;
+		}
+	}
+
+	&-small {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 30px;
+		background-color: #57585B;
+
+		& ul {
+			display: flex;
+			list-style: none;
+
+			& li:first-child {
+				margin-left: 0px;
+			}
+
+			& li {
+				margin-left: 20px;
+
+				& a {
+					text-decoration: none;
+					color: #000;
+				}
+			}
+		}
+	}
+}
+
+.header-primary {
+	width: 1200px;
+	padding: 0px;
+	margin: 0px;
+	align-self: center;
+	display: flex;
+	text-align: center;
+	list-style-type: none;
+
+	&-logo {
+		background: url("frontiet_logo.png") no-repeat;
+		position: relative;
+		right: 0px;
+		height: 120px;
+		width: 220px;
+		display: block;
+		background-size: contain;
+	}
+
+	&-upper {
+		display: flex;
+		background-color: #D6D6D6;
+		height: 40px;
+		width: 1149px;
+		justify-content: initial;
+		list-style: none;
+
+		&-list {
+			align-self: center;
+			margin-left: 40px;
+		}
+
+		&-list1 {
+			align-self: center;
+			display: flex;
+			color: red;
+			margin-left: 40px;
+		}
+
+		&-anchor {
+			color: black;
+			text-decoration: none;
+			padding: 3px;
+
+			&:hover {
+				background-color: black;
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&-lower {
+		display: flex;
+		background-color: white;
+		justify-content: space-around;
+		padding: 23px;
+
+		&-list {
+			list-style-type: none;
+			align-self: center;
+			padding: 0px;
+
+			&-account {
+				background-color: red;
+				color: white;
+				text-align: center;
+				align-self: center;
+				padding: 10px 30px 10px 30px;
+				font-size: 12px;
+				top: 22px;
+				margin-left: -50px;
+				margin-right: 80px;
+			}
+		}
+	}
+}
+
+.header-active-list-span {
+	background-color: red;
+	color: white;
+	margin-left: -30px;
+	padding: 5px 5px 5px 5px;
+}
+
+.footer-social-link {
+	font-size: 40px;
+	padding-top: 165px;
+	padding-right: -17px;
+}
+
+body {
+	margin: 0px;
+}
