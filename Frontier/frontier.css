@@ -1,0 +1,173 @@
+.footer-logo-div {
+	height: 100px;
+	width: 1435px;
+	background-color: #57585B;
+}
+
+.footer-div-logo {
+	background: url("frontier-logo-edge4.png") no-repeat;
+	height: 100px;
+	width: 150px;
+	margin-left: 300px;
+}
+
+.section-main-content {
+	min-height: 170px;
+	background-color: #F0F1F3;
+}
+
+.footer-primary {
+	background-color: #ccc;
+}
+
+.caption-holder {
+	padding: 20px 0;
+	text-align: center;
+	background-color: #D03035;
+}
+
+.links-holder {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 275px;
+	padding-top: 34px;
+	padding-right: 106px;
+	background-color: #57585B;
+}
+
+.links-holder ul {
+	list-style: none;
+}
+
+.links-holder ul li:first-child {
+	font-weight: bold;
+}
+
+.links-holder ul a {
+	color: #000;
+	text-decoration: none;
+}
+
+.links-holder-small {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	background-color: #57585B;
+}
+
+.links-holder-small ul {
+	display: flex;
+	list-style: none;
+}
+
+.links-holder-small ul li:first-child {
+	margin-left: 0px;
+}
+
+.links-holder-small ul li {
+	margin-left: 20px;
+}
+
+.links-holder-small ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.caption-holder span {
+	font-size: 30px;
+}
+
+.header-primary {
+	width: 1200px;
+	padding: 0px;
+	margin: 0px;
+	align-self: center;
+	display: flex;
+	text-align: center;
+	list-style-type: none;
+}
+
+.header-primary-logo {
+	background: url("frontiet_logo.png") no-repeat;
+	position: relative;
+	right: 0px;
+	height: 120px;
+	width: 220px;
+	display: block;
+	background-size: contain;
+}
+
+.header-active-list-span {
+	background-color: red;
+	color: white;
+	margin-left: -30px;
+	padding: 5px 5px 5px 5px;
+}
+
+.header-primary-upper {
+	display: flex;
+	background-color: #D6D6D6;
+	height: 40px;
+	width: 1149px;
+	justify-content: initial;
+	list-style: none;
+}
+
+.header-primary-upper-anchor {
+	color: black;
+	text-decoration: none;
+	padding: 3px;
+}
+
+.header-primary-upper-anchor:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.header-primary-upper-list {
+	align-self: center;
+	margin-left: 40px;
+}
+
+.header-primary-upper-list1 {
+	align-self: center;
+	display: flex;
+	color: red;
+	margin-left: 40px;
+}
+
+.header-primary-lower {
+	display: flex;
+	background-color: white;
+	justify-content: space-around;
+	padding: 23px;
+}
+
+.header-primary-lower-list {
+	list-style-type: none;
+	align-self: center;
+	padding: 0px;
+}
+
+.header-primary-lower-list-account {
+	background-color: red;
+	color: white;
+	text-align: center;
+	align-self: center;
+	padding: 10px 30px 10px 30px;
+	font-size: 12px;
+	top: 22px;
+	margin-left: -50px;
+	margin-right: 80px;
+}
+
+.footer-social-link {
+	font-size: 40px;
+	padding-top: 165px;
+	padding-right: -17px;
+}
+
+body {
+	margin: 0px;
+}
